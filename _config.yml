@@ -6,7 +6,6 @@ theme: minima
 markdown: kramdown
 permalink: pretty
 header_pages:
-  - index.md
   - progress.md
   - wiki.md
 exclude:

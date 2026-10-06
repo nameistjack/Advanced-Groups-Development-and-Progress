@@ -1,9 +1,7 @@
 ---
 layout: home
-title: Advanced Groups Development and Progress
+title: Overview
 ---
-
-# Advanced Groups Development and Progress
 
 This is the public development hub for Advanced Groups, an independently
 designed and implemented DayZ group, map, marker, chat, navigation, zone, spawn,
