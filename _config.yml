@@ -1,0 +1,13 @@
+title: Advanced Groups Development and Progress
+description: Public development notes, architecture, progress, and integration documentation for Advanced Groups.
+url: https://nameistjack.github.io
+baseurl: /Advanced-Groups-Development-and-Progress
+theme: minima
+markdown: kramdown
+permalink: pretty
+header_pages:
+  - index.md
+  - progress.md
+  - wiki.md
+exclude:
+  - README.md
