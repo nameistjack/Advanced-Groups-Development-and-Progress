@@ -28,6 +28,8 @@ title: Documentation Wiki
 ## Release information
 
 - [Release, upgrade, and rollback guide]({{ site.baseurl }}/docs/RELEASE_GUIDE/)
+- [Versioning policy]({{ site.baseurl }}/docs/VERSIONING/)
+
 The Steam Workshop listing is intentionally excluded from this site. This wiki
 is generated from the project documentation and contains development and
 technical information only.

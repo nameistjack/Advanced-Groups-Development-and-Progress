@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071014">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/favicon.svg">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  </head>
+  <body>
+    <div class="signal-line" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="{{ site.baseurl }}/" aria-label="Advanced Groups development home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>ADVANCED GROUPS</strong><small>DEVELOPMENT LOG</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ site.baseurl }}/"{% if page.url == '/' %} class="active"{% endif %}>Overview</a>
+        <a href="{{ site.baseurl }}/progress/"{% if page.url contains '/progress' %} class="active"{% endif %}>Progress</a>
+        <a href="{{ site.baseurl }}/wiki/"{% if page.url contains '/wiki' %} class="active"{% endif %}>Wiki</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3748415716" target="_blank" rel="noreferrer">Workshop</a>
+      </nav>
+      <div class="build-state"><span></span> Beta 0.4.0</div>
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer class="site-footer">
+      <div><strong>ADVANCED GROUPS</strong><span>Independent DayZ development</span></div>
+      <p>Architecture, progress, and integration notes. <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3748415716">View on Steam Workshop</a>.</p>
+    </footer>
+  </body>
+</html>
